@@ -156,6 +156,7 @@ Mapped predicted risk levels to healthcare recommendations
 The Random Forest model demonstrated reliable predictive performance on the test dataset and showed stable generalization on unseen patient data and achieved 81.25% accuracy.
 
 ✅ **Accuracy: 81.25%**
+
 📋**Classification Report Summary**
 
 | Risk Level | Precision | Recall | F1-Score |
@@ -178,10 +179,15 @@ The Random Forest model demonstrated reliable predictive performance on the test
 ### New Patient Prediction Example
 
 new_patient = X.iloc[[0]].copy()
+
 new_patient["Age"] = 55
+
 new_patient["Glucose_Level"] = 185
+
 new_patient["HbA1c"] = 8.3
+
 new_patient["Family_History_T2D"] = 1
+
 new_patient["APOE_e4_Carrier"] = 1
 
 
@@ -236,4 +242,5 @@ Validated predictions using unseen patient data
 👤 Author
 
 **Bibek Kumar Majhi**
+
 Data Analytics & Machine Learning Enthusiast
