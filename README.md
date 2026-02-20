@@ -239,8 +239,9 @@ Validated predictions using unseen patient data
 - Extend system to predict additional health risks
 
 
-👤 Author
+### 👤 Author
 
 **Bibek Kumar Majhi**
 
 Data Analytics & Machine Learning Enthusiast
+
